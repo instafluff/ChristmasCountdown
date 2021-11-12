@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: christmascountdown 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: christmascountdown
+  template:
+    metadata:
+      labels:
+        app: christmascountdown 
+    spec:
+      containers:
+        - name: christmascountdown 
+          image: christmascountdown.azurecr.io/christmascountdown
+          ports:
+          - containerPort: 8080
