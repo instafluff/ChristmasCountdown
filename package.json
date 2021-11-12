@@ -1,0 +1,30 @@
+{
+  "name": "christmascountdown",
+  "version": "1.0.0",
+  "description": "Christmas Countdown App for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instafluff/ChristmasCountdown.git"
+  },
+  "keywords": [
+    "Christmas",
+    "Countdown",
+    "Node",
+    "JS",
+    "JavaScript",
+    "Instafluff"
+  ],
+  "author": "Instafluff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instafluff/ChristmasCountdown/issues"
+  },
+  "homepage": "https://github.com/instafluff/ChristmasCountdown#readme",
+  "dependencies": {
+    "webwebweb": "^1.4.10"
+  }
+}
